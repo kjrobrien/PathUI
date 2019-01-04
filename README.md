@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.org/wpilibsuite/PathUI.svg?branch=master)](https://travis-ci.org/wpilibsuite/PathUI)
-# pathui
+[![Build Status](https://dev.azure.com/wpilib/DesktopTools/_apis/build/status/wpilibsuite.PathWeaver)](https://dev.azure.com/wpilib/DesktopTools/_build/latest?definitionId=10)
+# PathWeaver
 
-PathUI is an under-development front end motion planning program. It is primarily designed for FRC teams using Pathfinder. PathUI will be available for the 2019 FIRST Robotics Competition game with support for the 2019 version of Pathfinder. Currently Pathfinder is not used as a dependency and splines are generated using native JavaFX functionality.
+PathWeaver is an under-development front end motion planning program. It is primarily designed for FRC teams using [Pathfinder v1](https://github.com/JacisNonsense/Pathfinder). PathWeaver will be available for the 2019 FIRST Robotics Competition game with support for [Pathfinder v2](https://github.com/GrappleRobotics/Pathfinder).
 
 The two primary design criteria are
 1. Creating and modifying paths should be as natural as possible.
@@ -12,8 +12,8 @@ For bugs or feature suggestions, make a github issue.
 
 ## Building
 
-To run PathUI use the command `./gradlew run`
+To run PathWeaver use the command `./gradlew run`
 
 
 ### Requirements
-- [JDK 10](http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html)
+- [JDK 11](http://jdk.java.net/11/)
